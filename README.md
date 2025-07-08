@@ -1,4 +1,4 @@
-# 🏫 Asistencia Escolar 1.5
+# 🏫 Asistencia Escolar
 
 Aplicación web para la gestión de asistencia escolar con diferentes roles de usuario. Incluye recuperación de contraseña mediante una palabra secreta y paneles separados para administradores, maestros y estudiantes.
 
@@ -12,18 +12,18 @@ Aplicación web para la gestión de asistencia escolar con diferentes roles de u
 - Interfaz en React + TypeScript con Tailwind.
 
 ## 🚀 Tecnologías utilizadas
-- **Frontend:** React, JSX (JavaScript) y Tailwind
+- **Frontend:** React, JSX (JavaScript) 
 - **Backend:** Node.js y Express
 - **Base de datos:** MySQL
 - **Autenticación:** headers personalizados
 
 ## 🧰 Estructura del proyecto
 ```
-asistencia1.5/
+asistencia/
 ├── fine/
 │   ├── db.js                   # Credenciales de la base de datos
 │   └── migrations/            # Scripts SQL para crear las tablas
-├── public/
+
 ├── src/
 │   ├── components/            # Componentes reutilizables
 │   ├── context/               # Contexto global de React
